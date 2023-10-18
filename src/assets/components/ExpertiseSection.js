@@ -2,7 +2,7 @@ import React from "react";
 
 function ExpertiseSection() {
   return (
-    <article className="expertise">
+    <article id="EXPERTISE" className="expertise">
       <div className="div-8">
         <div className="text-wrapper-3">What We Do</div>
         <div className="text-wrapper-7">Expertise</div>

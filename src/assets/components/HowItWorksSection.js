@@ -3,7 +3,7 @@ import { Button } from "./Button";
 
 function HowItWorksSection() {
   return (
-    <article className="stats">
+    <article id="MaximumValuation" className="stats">
       <div className="div-14">
         <div className="div-15">
           <div className="text-wrapper-3">How It Works</div>

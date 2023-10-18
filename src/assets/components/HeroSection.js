@@ -14,7 +14,7 @@ function HeroSection() {
         feugiat ac cndimentum ac. Integer sed libero aliquam nam, eu iaculis
         nascetur tellus
       </p>
-      <Button text="Our Expertise" />
+      <Button href="#MaximumValuation" text="Our Expertise" />
       <img className="scrollIcon" alt="Img" src={scrollIcon} />
     </article>
   );

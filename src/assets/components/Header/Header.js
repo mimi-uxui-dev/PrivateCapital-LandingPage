@@ -16,13 +16,13 @@ function Header() {
     <header className="div-2">
       <img className="logo" alt="Logo" src={logo} />
       <div className="navbar">
-        <a href="" className="text-wrapper">
+        <a href="#DISCOVER" className="text-wrapper">
           Discover Us
         </a>
-        <a href="" className="text-wrapper">
+        <a href="#EXPERTISE" className="text-wrapper">
           Expertise
         </a>
-        <a href="" className="text-wrapper">
+        <a href="#MaximumValuation" className="text-wrapper">
           Maximum Valuation
         </a>
         <Button text="Contact Us" />
@@ -30,13 +30,13 @@ function Header() {
 
       <img onClick={openMenu} className="mobileMenu" src={menuIcon} alt="" />
       <div className={`navbarMobile ${open ? "display" : "none"}`}>
-        <a href="" className="text-wrapper">
+        <a href="#DISCOVER" className="text-wrapper">
           Discover Us
         </a>
-        <a href="" className="text-wrapper">
+        <a href="#EXPERTISE" className="text-wrapper">
           Expertise
         </a>
-        <a href="" className="text-wrapper">
+        <a href="#MaximumValuation" className="text-wrapper">
           Maximum Valuation
         </a>
         <a onClick={closeMenu} href="" className="x text-wrapper">

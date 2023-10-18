@@ -2,7 +2,7 @@ import React from "react";
 
 function DiscoverSection() {
   return (
-    <article className="discover">
+    <article id="DISCOVER" className="discover">
       <div className="div-4">
         <div className="text-wrapper-3">Discover</div>
         <img
