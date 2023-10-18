@@ -6,7 +6,10 @@ import menuIcon from "../../images/menu.svg";
 
 function Header() {
   const [open, setOpen] = useState(false);
-  const closeMenu = () => setOpen(false);
+  const closeMenu = (e) => {
+    e.preventDefault();
+    setOpen(false);
+  };
   const openMenu = () => setOpen(true);
 
   return (
