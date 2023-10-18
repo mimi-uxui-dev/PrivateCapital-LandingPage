@@ -19,11 +19,11 @@ function App() {
 
       <div className="div-3">
         <DiscoverSection />
-        {/* <StatsSection />
+        <StatsSection />
         <ExpertiseSection />
         <HowItWorksSection />
         <ContactSection />
-        <Footer /> */}
+        <Footer />
       </div>
     </article>
   );

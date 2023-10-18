@@ -30,11 +30,11 @@ body {
 
 .frame {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   width: 100%;
   position: relative;
-  max-width: 1920px;
+
   background-color: #17232c;
 }
 
@@ -56,7 +56,7 @@ body {
 .frame .navbar {
   align-items: center;
   display: inline-flex;
-  flex: 0 0 auto;
+
   gap: 40px;
   position: relative;
 }
@@ -80,13 +80,6 @@ body {
   height: 846px;
   position: relative;
   width: 1280px;
-}
-
-.frame {
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: center;
 }
 
 ::-webkit-scrollbar {
@@ -171,6 +164,7 @@ body {
   flex-direction: column;
   gap: 160px;
   margin: 160px auto;
+  width: 100%;
 }
 
 .frame .discover {
@@ -183,7 +177,7 @@ body {
 .frame .div-4 {
   align-items: flex-start;
   display: inline-flex;
-  flex: 0 0 auto;
+
   flex-direction: column;
   gap: 8px;
   justify-content: center;
@@ -220,17 +214,17 @@ body {
 }
 
 .frame .stats {
-  align-items: center;
   background-color: #0b151c;
   border-radius: 24px;
   display: flex;
-  flex: 0 0 auto;
   flex-direction: column;
-  gap: 56px;
+  align-items: center;
   justify-content: center;
-  padding: 40px 0px;
-  position: relative;
-  width: 1280px;
+  gap: 56px;
+  padding: 40px 24px;
+  text-align: center;
+  width: 100%;
+  max-width: 1280px;
 }
 
 .frame .CHF-billion-in {
@@ -240,9 +234,6 @@ body {
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
-  margin-top: -1px;
-  position: relative;
-  width: fit-content;
 }
 
 .frame .span {
@@ -254,18 +245,17 @@ body {
 }
 
 .frame .div-5 {
-  align-items: center;
   display: flex;
-  flex: 0 0 auto;
+  align-items: center;
   justify-content: space-between;
-  position: relative;
-  width: 846px;
+  max-width: 846px;
+  width: 100%;
 }
 
 .frame .div-6 {
   align-items: center;
   display: inline-flex;
-  flex: 0 0 auto;
+
   flex-direction: column;
   justify-content: center;
   position: relative;
@@ -311,10 +301,10 @@ body {
 .frame .expertise {
   align-items: flex-start;
   display: flex;
-  flex: 0 0 auto;
+
   gap: 156px;
-  position: relative;
-  width: 1280px;
+  width: 100%;
+  max-width: 1280px;
 }
 
 .frame .div-8 {
@@ -344,8 +334,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 56px;
-  position: relative;
-  width: 884px;
+  width: 100%;
+  max-width: 884px;
 }
 
 .frame .text-wrapper-8 {
@@ -356,28 +346,26 @@ body {
   font-weight: 300;
   letter-spacing: 0.36px;
   line-height: 30.6px;
-  margin-top: -1px;
-  position: relative;
   text-align: justify;
 }
 
 .frame .div-10 {
   align-items: flex-start;
   display: flex;
-  flex: 0 0 auto;
+
   flex-direction: column;
   gap: 48px;
-  position: relative;
-  width: 884px;
+  width: 100%;
+  max-width: 884px;
 }
 
 .frame .div-11 {
   align-items: flex-start;
   display: flex;
-  flex: 0 0 auto;
+
   gap: 56px;
-  position: relative;
-  width: 884px;
+  width: 100%;
+  max-width: 884px;
 }
 
 .frame .text-wrapper-9 {
@@ -406,11 +394,9 @@ body {
 .frame .div-12 {
   align-items: flex-start;
   display: inline-flex;
-  flex: 0 0 auto;
+
   flex-direction: column;
   gap: 12px;
-  margin-right: -69px;
-  position: relative;
 }
 
 .frame .text-wrapper-11 {
@@ -420,10 +406,9 @@ body {
   font-weight: 400;
   letter-spacing: 0.4px;
   line-height: 30.6px;
-  margin-top: -1px;
-  position: relative;
   text-align: justify;
-  width: 597px;
+  max-width: 597px;
+  width: 100%;
 }
 
 .frame .text-wrapper-12 {
@@ -435,7 +420,8 @@ body {
   line-height: 30.6px;
   position: relative;
   text-align: justify;
-  width: 528px;
+  max-width: 528px;
+  width: 100%;
 }
 
 .frame .div-13 {
@@ -443,8 +429,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  position: relative;
-  width: 528px;
+  width: 100%;
+  max-width: 528px;
 }
 
 .frame .text-wrapper-13 {
@@ -455,25 +441,22 @@ body {
   letter-spacing: 0.4px;
   line-height: 30.6px;
   margin-right: -69px;
-  margin-top: -1px;
-  position: relative;
+  width: 100%;
   text-align: justify;
-  width: 597px;
+  max-width: 597px;
 }
 
 .frame .div-14 {
-  align-items: center;
-  display: inline-flex;
-  flex: 0 0 auto;
+  display: flex;
+
   flex-direction: column;
   gap: 56px;
-  position: relative;
 }
 
 .frame .div-15 {
   align-items: center;
   display: inline-flex;
-  flex: 0 0 auto;
+
   flex-direction: column;
   gap: 8px;
   justify-content: center;
@@ -495,7 +478,7 @@ body {
 .frame .div-16 {
   align-items: flex-start;
   display: inline-flex;
-  flex: 0 0 auto;
+  flex-wrap: wrap;
   gap: 80px;
   justify-content: center;
   position: relative;
@@ -516,7 +499,7 @@ body {
   background-color: var(--variable-collection-gold);
   border-radius: 24px;
   display: flex;
-  flex: 0 0 auto;
+
   flex-direction: column;
   gap: 10px;
   justify-content: center;
@@ -567,7 +550,7 @@ body {
   background-color: var(--variable-collection-gold);
   border-radius: 24px;
   display: inline-flex;
-  flex: 0 0 auto;
+
   flex-direction: column;
   gap: 10px;
   justify-content: center;
@@ -589,11 +572,16 @@ body {
 }
 
 .frame .div-18 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  display: inline-flex;
-  flex: 0 0 auto;
   gap: 80px;
   position: relative;
+}
+
+.contactImg {
+  width: 100%;
+  height: auto;
 }
 
 .frame .image-wrapper {
@@ -617,7 +605,7 @@ body {
 .frame .div-19 {
   align-items: flex-start;
   display: inline-flex;
-  flex: 0 0 auto;
+
   flex-direction: column;
   gap: 56px;
   position: relative;
@@ -626,16 +614,16 @@ body {
 .frame .div-20 {
   align-items: center;
   display: flex;
-  flex: 0 0 auto;
+
   justify-content: space-between;
-  position: relative;
-  width: 591px;
+  gap: 24px;
+  max-width: 591px;
 }
 
 .frame .div-21 {
   align-items: flex-start;
   display: inline-flex;
-  flex: 0 0 auto;
+
   flex-direction: column;
   gap: 8px;
   position: relative;
@@ -650,7 +638,7 @@ body {
 .frame .div-wrapper-3 {
   align-items: flex-start;
   display: inline-flex;
-  flex: 0 0 auto;
+
   flex-direction: column;
   justify-content: center;
   position: relative;
@@ -697,7 +685,7 @@ body {
   background-color: #0b151c;
   border-radius: 24px;
   display: flex;
-  flex: 0 0 auto;
+
   flex-direction: column;
   gap: 56px;
   justify-content: center;
@@ -710,7 +698,7 @@ body {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
-  flex: 0 0 auto;
+
   justify-content: space-between;
   position: relative;
   width: 100%;
@@ -719,7 +707,7 @@ body {
 .frame .div-23 {
   align-items: flex-start;
   display: inline-flex;
-  flex: 0 0 auto;
+
   gap: 160px;
   position: relative;
 }
@@ -727,7 +715,7 @@ body {
 .frame .div-24 {
   align-items: flex-start;
   display: inline-flex;
-  flex: 0 0 auto;
+
   flex-direction: column;
   gap: 24px;
   position: relative;
@@ -772,11 +760,46 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1365px) {
   body {
     margin: 0 24px;
   }
 
+  .frame .discover {
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+  }
+
+  .frame .lorem-ipsum-dolor,
+  .frame .div-9,
+  .frame .text-wrapper-11,
+  .frame .text-wrapper-12,
+  .frame .div-11,
+  .frame .div-10,
+  .frame .div-13,
+  .frame .text-wrapper-13,
+  .frame .text-wrapper-12 {
+    max-width: unset;
+  }
+
+  .frame .expertise {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .frame .div-12 {
+    display: flex;
+    flex: unset;
+  }
+
+  .frame .icon-instance-node {
+    height: 32px !important;
+    width: 32px !important;
+  }
+}
+
+@media screen and (max-width: 1280px) {
   .heroContent {
     justify-content: unset;
   }
@@ -825,15 +848,60 @@ body {
     right: 24px;
     font-size: 24px !important;
   }
+
+  .frame .text-wrapper-19 {
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-width: 992px) {
   body {
-    background-color: pink;
     margin: 0 24px;
   }
-  .frame .discover {
+  .frame .div-5 {
     flex-direction: column;
-    gap: 40px;
+    gap: 56px;
+  }
+  .contactImg {
+    display: none;
+  }
+  .frame .div-18 {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+
+    width: 100%;
+    max-width: unset;
+  }
+  .frame .div-20,
+  .frame .div-21 {
+    width: 100%;
+  }
+
+  .frame .text-wrapper-18 {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .frame .div-11 {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .frame .text-wrapper-10 {
+    width: unset;
+  }
+
+  .frame .text-wrapper-14,
+  .frame .div-17 {
+    width: unset;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .frame .div-20 {
+    flex-direction: column;
   }
 }

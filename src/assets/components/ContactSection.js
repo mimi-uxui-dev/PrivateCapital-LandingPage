@@ -2,6 +2,7 @@ import React from "react";
 import { VuesaxBulkLocationMinus1 } from "../icons/VuesaxBulkLocationMinus1";
 import { VuesaxBulkCall1 } from "../icons/VuesaxBulkCall1";
 import { VuesaxBulkSms1 } from "../icons/VuesaxBulkSms1";
+import contactImg from "../images/contact.png";
 
 function ContactSection() {
   return (
@@ -13,13 +14,7 @@ function ContactSection() {
         </p>
       </div>
       <div className="div-18">
-        <div className="image-wrapper">
-          <img
-            className="image"
-            alt="Image"
-            src="https://c.animaapp.com/n49eTwE7/img/image-26.png"
-          />
-        </div>
+        <img src={contactImg} className="contactImg" alt="contact img" />
         <div className="div-19">
           <div className="div-20">
             <div className="div-21">
@@ -31,14 +26,14 @@ function ContactSection() {
             <div className="div-21">
               <VuesaxBulkCall1 className="icon-instance-node" />
               <div className="div-wrapper-3">
-                <div className="text-wrapper-20">+44 1234 567 891</div>
+                <div className="text-wrapper-19">+44 1234 567 891</div>
               </div>
             </div>
           </div>
           <div className="div-21">
             <VuesaxBulkLocationMinus1 className="icon-instance-node" />
             <div className="div-wrapper-3">
-              <p className="text-wrapper-21">
+              <p className="text-wrapper-19">
                 Next Patron AGErlenstrasse 59CH - 8832 Wollerau
               </p>
             </div>
