@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/PrivateCapital-LandingPage/static/css/main.376d1367.css",
+    "main.js": "/PrivateCapital-LandingPage/static/js/main.150aa702.js",
+    "static/js/787.8abe1a8d.chunk.js": "/PrivateCapital-LandingPage/static/js/787.8abe1a8d.chunk.js",
+    "static/media/contact.png": "/PrivateCapital-LandingPage/static/media/contact.3bc6f42463386462e1f2.png",
+    "static/media/scroolar.svg": "/PrivateCapital-LandingPage/static/media/scroolar.89d74a23750bb55e4fa66dd5d99be586.svg",
+    "index.html": "/PrivateCapital-LandingPage/index.html",
+    "static/media/menu.svg": "/PrivateCapital-LandingPage/static/media/menu.bd337225a33b9389ebe39c35da5bec22.svg",
+    "main.376d1367.css.map": "/PrivateCapital-LandingPage/static/css/main.376d1367.css.map",
+    "main.150aa702.js.map": "/PrivateCapital-LandingPage/static/js/main.150aa702.js.map",
+    "787.8abe1a8d.chunk.js.map": "/PrivateCapital-LandingPage/static/js/787.8abe1a8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.376d1367.css",
+    "static/js/main.150aa702.js"
+  ]
+}
