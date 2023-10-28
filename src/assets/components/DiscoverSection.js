@@ -1,15 +1,12 @@
 import React from "react";
+import logo from "../../assets/images/logo-3.png";
 
 function DiscoverSection() {
   return (
     <article id="DISCOVER" className="discover">
       <div className="div-4">
         <div className="text-wrapper-3">Discover</div>
-        <img
-          className="logo-2"
-          alt="Logo"
-          src="https://c.animaapp.com/n49eTwE7/img/logo-2-1.svg"
-        />
+        <img className="logo-2" alt="Logo" src={logo} />
       </div>
       <p className="lorem-ipsum-dolor">
         Lorem ipsum dolor sit amet consectetur. Faucibus interdum ut integer

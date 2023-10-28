@@ -1,32 +1,30 @@
 import React from "react";
+import logo from "../../assets/images/logo-2.png";
 
 function Footer() {
   return (
     <footer>
       <div className="stats-2">
         <div className="div-22">
-          <img
-            className="logo"
-            alt="Logo"
-            src="https://c.animaapp.com/n49eTwE7/img/logo-2.svg"
-          />
+          <img className="logo" alt="Logo" src={logo} />
           <div className="div-23">
             <div className="div-24">
               <div className="text-wrapper-22">Office</div>
               <p className="text-wrapper-23">
-                Capital Parteners AG
-                <br />
-                Erlenstrasse 59
-                <br />
-                CH - 8832 Wollerau
+                B2B Capital Partners GmbH <br />
+                Pulverstrasse 8 <br />
+                3063 Gümligen
               </p>
             </div>
             <div className="div-24">
               <div className="text-wrapper-22">Contact</div>
               <div className="text-wrapper-23">
-                +41797031539
+                <a href="tel:+41797031539">+41 797 031 539</a>
                 <br />
-                Boss@CapitalPartners.ch
+
+                <a href="mailto:Boss@CapitalPartners.ch">
+                  Boss@CapitalPartners.ch
+                </a>
               </div>
             </div>
           </div>

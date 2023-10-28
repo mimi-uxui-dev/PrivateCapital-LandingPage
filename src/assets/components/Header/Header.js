@@ -17,32 +17,32 @@ function Header() {
       <img className="logo" alt="Logo" src={logo} />
       <div className="navbar">
         <a href="#DISCOVER" className="text-wrapper">
-          Discover Us
+          Discover
         </a>
         <a href="#EXPERTISE" className="text-wrapper">
           Expertise
         </a>
-        <a href="#MaximumValuation" className="text-wrapper">
-          Maximum Valuation
+        <a href="#MaximumValue" className="text-wrapper">
+          Maximize Value
         </a>
-        <Button text="Contact Us" />
+        <Button href="#Contact" text="Contact Us" />
       </div>
 
       <img onClick={openMenu} className="mobileMenu" src={menuIcon} alt="" />
       <div className={`navbarMobile ${open ? "display" : "none"}`}>
         <a href="#DISCOVER" className="text-wrapper">
-          Discover Us
+          Discover
         </a>
         <a href="#EXPERTISE" className="text-wrapper">
           Expertise
         </a>
-        <a href="#MaximumValuation" className="text-wrapper">
-          Maximum Valuation
+        <a href="#MaximumValue" className="text-wrapper">
+          Maximize Value
         </a>
         <a onClick={closeMenu} href="" className="x text-wrapper">
           X
         </a>
-        <Button text="Contact Us" />
+        <Button href="#Contact" text="Contact Us" />
       </div>
     </header>
   );

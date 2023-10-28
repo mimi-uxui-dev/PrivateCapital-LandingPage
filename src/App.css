@@ -102,13 +102,15 @@ body {
   border-radius: 10px;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Oswald:wght@300;400;500;600;700&display=swap");
+
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #ffc46b;
 }
 
 .hero-content {
-  background-image: url(https://c.animaapp.com/n49eTwE7/img/bg.png);
+  background-image: url("./assets/images/heroPic.png");
   background-position: center center;
   background-size: cover;
   height: 745px;
@@ -225,7 +227,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 56px;
-  padding: 40px 24px;
+  padding: 40px 16px;
   text-align: center;
   width: 100%;
   max-width: 1280px;
@@ -483,7 +485,7 @@ body {
   align-items: flex-start;
   display: inline-flex;
   flex-wrap: wrap;
-  gap: 80px;
+  gap: 32px;
   justify-content: center;
   position: relative;
 }
@@ -495,7 +497,7 @@ body {
   gap: 24px;
   justify-content: center;
   position: relative;
-  width: 300px;
+  width: 380px;
 }
 
 .frame .div-wrapper {
@@ -768,6 +770,14 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+.div-wrapper-3 > a:hover {
+  color: white !important;
 }
 
 @media screen and (max-width: 1365px) {

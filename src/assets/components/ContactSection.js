@@ -6,11 +6,11 @@ import contactImg from "../images/contact.png";
 
 function ContactSection() {
   return (
-    <article className="div-14">
+    <article className="div-14" id="Contact">
       <div className="div-15">
         <div className="text-wrapper-3">Contact</div>
         <p className="text-wrapper-18">
-          Schedule a call with us to find out if we can help you!
+          Schedule a call with us and see if we can hold your back!
         </p>
       </div>
       <div className="div-18">
@@ -20,13 +20,20 @@ function ContactSection() {
             <div className="div-21">
               <VuesaxBulkSms1 className="icon-instance-node" />
               <div className="div-wrapper-3">
-                <div className="text-wrapper-19">hello@yourwebsite.com</div>
+                <a
+                  href="mailto:Boss@CapitalPartners.ch"
+                  className="text-wrapper-19"
+                >
+                  Boss@CapitalPartners.ch
+                </a>
               </div>
             </div>
             <div className="div-21">
               <VuesaxBulkCall1 className="icon-instance-node" />
               <div className="div-wrapper-3">
-                <div className="text-wrapper-19">+44 1234 567 891</div>
+                <a href="tel:+41797031539" className="text-wrapper-19">
+                  +41 797 031 539
+                </a>
               </div>
             </div>
           </div>
@@ -34,7 +41,7 @@ function ContactSection() {
             <VuesaxBulkLocationMinus1 className="icon-instance-node" />
             <div className="div-wrapper-3">
               <p className="text-wrapper-19">
-                Next Patron AGErlenstrasse 59CH - 8832 Wollerau
+                B2B Capital Partners GmbH, <br /> Pulverstrasse 8, 3063 Gümligen
               </p>
             </div>
           </div>

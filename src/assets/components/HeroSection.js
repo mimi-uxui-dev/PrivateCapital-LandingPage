@@ -6,15 +6,14 @@ function HeroSection() {
   return (
     <article className="hero-content">
       <p className="p">
-        Lorem ipsum dolor sit amet consectetur viverra sed vitae posuere velit
-        enim.
+        Our B2B DNA drives our omnipresent value maximization culture - your
+        business is our business when it comes to selling
       </p>
       <p className="text-wrapper-2">
-        Lorem ipsum dolor sit amet consectetur. Egestas sollicitudin non morbi
-        feugiat ac cndimentum ac. Integer sed libero aliquam nam, eu iaculis
-        nascetur tellus
+        B2B Capital Partners has advised 100+ company sales across the globe
+        with 40+ billion total deal value
       </p>
-      <Button href="#MaximumValuation" text="Our Expertise" />
+      <Button href="#MaximumValue" text="Our Expertise" />
       <img className="scrollIcon" alt="Img" src={scrollIcon} />
     </article>
   );
