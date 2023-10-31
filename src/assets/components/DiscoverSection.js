@@ -9,23 +9,14 @@ function DiscoverSection() {
         <img className="logo-2" alt="Logo" src={logo} />
       </div>
       <p className="lorem-ipsum-dolor">
-        Lorem ipsum dolor sit amet consectetur. Faucibus interdum ut integer
-        nunc non dolor volutpat amet. Nullam sollicitudin elementum nam elit.
-        Morbi etiam pellentesque urna aliquam dolor enim ridiculus nunc
-        lectus.&nbsp;&nbsp;Et felis libero elementum pellentesque proin netus
-        tortor lorem. Pharetra enim risus diam vel in amet pharetra sit. Sit sit
-        sed in tempor ullamcorper eleifend. Sit laoreet mattis lectus facilisis
-        ut dictum volutpat egestas. Netus semper sit volutpat sed egestas
-        venenatis. <br />
-        Consequat nisl sodales laoreet at in sed sem velit quisque. Imperdiet
-        viverra nibh tempor donec tempus in pharetra eros venenatis. Tristique
-        enim blandit aliquam quisque nisl varius vel.
-        <br />
-        Sed eu augue tristique malesuada nunc condimentum et blandit maecenas.
-        Volutpat volutpat quisque in aliquet. Blandit sed egestas habitant nulla
-        libero dui massa. Egestas dui posuere sit in mauris sed. Non iaculis
-        amet ipsum sit purus. Est sit suscipit nibh non nunc scelerisque
-        accumsan pellentesque.
+        B2B Capital Partners is a global Corporate Finance advisory firm with
+        decades of experience, having closed dozens of multi-billion-dollars in
+        deals, providing world-class expertise only. We are more than just
+        advisors; we are partners, working back-to-back with our clients,
+        constantly creating additional value for our clients. <br /> Our clients
+        success is our success. At B2B Capital Partners our unstoppable
+        commitment is represented in our company principles: "We never lose, and
+        our clients always win"
       </p>
     </article>
   );
