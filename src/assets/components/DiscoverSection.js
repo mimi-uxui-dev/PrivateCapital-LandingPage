@@ -13,7 +13,7 @@ function DiscoverSection() {
         decades of experience, having closed dozens of multi-billion-dollars in
         deals, providing world-class expertise only. We are more than just
         advisors; we are partners, working back-to-back with our clients,
-        constantly creating additional value for our clients. <br /> Our clients
+        constantly creating additional value for our clients. Our clients
         success is our success. At B2B Capital Partners our unstoppable
         commitment is represented in our company principles: "We never lose, and
         our clients always win"
