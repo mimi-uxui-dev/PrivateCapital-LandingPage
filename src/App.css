@@ -169,7 +169,7 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 160px;
-  margin: 160px auto;
+  margin: 80px auto 160px auto;
   width: 100%;
 }
 
@@ -999,6 +999,7 @@ footer a {
   .hero-content .p {
     font-size: 18px;
     margin-bottom: 16px;
+    padding: 0 8px;
   }
   .hero-content .text-wrapper-2 {
     font-size: 15px;
