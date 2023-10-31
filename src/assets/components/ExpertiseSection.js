@@ -30,7 +30,7 @@ function ExpertiseSection() {
               <p className="text-wrapper-12">
                 Our negotiation and dispute resolution team at B2B Capital is
                 dedicated to providing tactical advisory and making sure you
-                will get out of any negotiation as a winner. With extensive
+                will walk out of any negotiation as a winner. With extensive
                 experience in a wide range of negotiation matters, we guide our
                 clients through any complexities of high value negotiations.
               </p>
@@ -61,7 +61,7 @@ function ExpertiseSection() {
                 Our M&A team brings experience from 100+ deals and ensures the
                 smoothest, fastest and painless process to best deal outcome
                 possible. We drive the process and make our clients always stay
-                in top.
+                on top.
               </p>
             </div>
           </div>
@@ -73,10 +73,11 @@ function ExpertiseSection() {
             <div className="div-12">
               <p className="text-wrapper-11">Corporate Restructuring</p>
               <p className="text-wrapper-12">
-                Our Restructuring Team brings experience from multi billion
-                restructuring mandates such as Enron (USA), Delta Airlines
-                (USA), Parmalat (Italy) and many other chapter 11. We protect
-                creditors interest to the maximum and drive pragmatic solutions.
+                Our Restructuring Team brings experience from
+                multi-billion-dollar restructuring mandates such as Enron (USA),
+                Delta Airlines (USA), Parmalat (Italy) and many other chapter 11
+                proceedings. We protect creditors interest to the maximum and
+                drive pragmatic solutions.
               </p>
             </div>
           </div>

@@ -41,7 +41,7 @@ function ContactSection() {
             <VuesaxBulkLocationMinus1 className="icon-instance-node" />
             <div className="div-wrapper-3">
               <p className="text-wrapper-19">
-                B2B Capital Partners GmbH, <br /> Pulverstrasse 8, 3063 Gümligen
+                B2B Capital Partners LLC, <br /> Pulverstrasse 8, 3063 Gümligen
               </p>
             </div>
           </div>

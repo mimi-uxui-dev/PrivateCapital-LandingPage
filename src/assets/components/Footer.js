@@ -11,7 +11,7 @@ function Footer() {
             <div className="div-24">
               <div className="text-wrapper-22">Office</div>
               <p className="text-wrapper-23">
-                B2B Capital Partners GmbH <br />
+                B2B Capital Partners LLC <br />
                 Pulverstrasse 8 <br />
                 3063 Gümligen
               </p>
@@ -29,7 +29,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="text-wrapper-24">© Capital Partners</div>
+        <div className="text-wrapper-24">© B2B Capital Partners</div>
       </div>
     </footer>
   );
