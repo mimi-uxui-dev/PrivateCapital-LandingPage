@@ -21,18 +21,18 @@ function ContactSection() {
               <VuesaxBulkSms1 className="icon-instance-node" />
               <div className="div-wrapper-3">
                 <a
-                  href="mailto:Boss@CapitalPartners.ch"
+                  href="mailto:Info@b2bcapital.partners"
                   className="text-wrapper-19"
                 >
-                  Boss@CapitalPartners.ch
+                  Info@b2bcapital.partners
                 </a>
               </div>
             </div>
             <div className="div-21">
               <VuesaxBulkCall1 className="icon-instance-node" />
               <div className="div-wrapper-3">
-                <a href="tel:+41797031539" className="text-wrapper-19">
-                  +41 797 031 539
+                <a href="tel:+41345520088" className="text-wrapper-19">
+                  +41 34 552 00 88
                 </a>
               </div>
             </div>

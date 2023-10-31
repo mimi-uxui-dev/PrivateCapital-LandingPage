@@ -5,7 +5,7 @@ function StatsSection() {
     <article className="stats">
       <p className="CHF-billion-in">
         <span className="span">CHF 40+ Billion</span>
-        <span className="text-wrapper-4"> in Closed Deals Since 2001</span>
+        <span className="text-wrapper-4"> in Closed Deals Since 2003</span>
       </p>
       <div className="div-5">
         <div className="div-6">

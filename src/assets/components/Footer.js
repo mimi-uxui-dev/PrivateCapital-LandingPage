@@ -19,11 +19,11 @@ function Footer() {
             <div className="div-24">
               <div className="text-wrapper-22">Contact</div>
               <div className="text-wrapper-23">
-                <a href="tel:+41797031539">+41 797 031 539</a>
+                <a href="tel:+41345520088">+41 34 552 00 88</a>
                 <br />
 
-                <a href="mailto:Boss@CapitalPartners.ch">
-                  Boss@CapitalPartners.ch
+                <a href="mailto:Info@b2bcapital.partners">
+                  Info@b2bcapital.partners
                 </a>
               </div>
             </div>
